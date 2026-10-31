@@ -3,6 +3,7 @@ name = "nlp-course"
 version = "0.1.0"
 requires-python = ">=3.13"
 dependencies = [
+    "accelerate>=1.15.0",
     "datasets>=5.1.0",
     "ipykernel>=7.4.0",
     "ipywidgets>=8.1.9",
@@ -14,4 +15,6 @@ dependencies = [
     "scikit-learn>=1.9.1",
     "scipy-stubs~=1.18.1",
     "sentence-transformers==6.2.0",
+    "torch>=2.14.1",
+    "transformers==5.21.0",
 ]
